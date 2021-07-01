@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TEste</title>
+    <!--  <script src="js/jquery-3.6.0.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(()=>{
+            $('#lista').append('<li>Item 4</li>')
+            $('#gb').before("<p>Novo texto</p>")
+        })
+        
+    </script>
+</head>
+<body>
+    <div id="div1" style="border: solid 1px red; width: 150px; height: 150px;">
+        div1
+    </div>
+     <div id="div2" style="border: solid 1px blue; width: 150px; height: 150px;">
+        dvi2
+    </div>
+    <ul id="lista">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <div id="lista2">
+        <div>item 1</div>
+        <div>item 2</div>
+        <div>item 3</div>
+    </div>
+<p id="gb">Tesss</p>
+</body>
+</html>
